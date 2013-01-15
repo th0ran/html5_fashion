@@ -7,7 +7,11 @@ footer, header, hgroup, menu, nav, section {
 
 #wrapper { width: 100%; max-width: 1224px; height: auto; background-color: #333; } 
 
-#menu { width: 100%; height: 75px; background-color: #333; float: left; }
+#container-menu { width: 100%; max-width: 1224px; height: 75px; background-color: #333; float: left; }
+
+#social_media { width: 20%; height: 400px; background-color: #2bd266; float: left; }
+
+#menu { width: 60%; height: 100%; background-color: #fff; float: left; }
 
 #banner { width: 100%; height: auto; background-color: #666; float: left; }
 
@@ -25,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 
 .cat { width: 100%; max-width: 320px; height: 220px; background-color: #33ccff; float: left; margin-left: 11px; margin-top: 11px; margin-bottom: 11px; }
 
-.post { width: 100%; max-width: 320px; height: auto; background-color: #33ccff; float: left; margin-left: 28px; margin-top: 28px; } 
+.post { width: 320px; height: auto; background-color: #33ccff; float: left; margin-left: 28px; margin-top: 28px; } 
 
 
 article h2  { font-size: 22px; padding: 11px; width: 100%; height: 25px; }
