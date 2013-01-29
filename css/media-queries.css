@@ -1,112 +1,57 @@
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-
 @media screen and (max-width: 980px) {
 
-	#wrapper { width: 100%; height: auto; background-color: #333; } 
-	#logo { width: 95%; height: 220px; background-color: #33ff00; float: left; margin: 10px auto; }
-	#main { width: 100%; height: auto;  float: left; background-color:  #cc4646; }
-	
-	article .post { width: 100%; height: auto; background-color: #33ccff; float: left; margin-left: 11px; margin-top: 11px; margin-bottom: 11px; }
-	
-	#leftmenu { width: 100%; height: 400px; background-color: #ccc; float: left; }
+#row1 { float: left; height: auto; }
+#row2 { float: left; height: auto; }
+#row3 { float: left; height: auto; }
+.coll1 { width: 100%; height: auto; float: left;}
+.coll2 { width: 100%; height: auto; float: left;}
+.coll3 { width: 100%; height: auto; float: left;}
 
-	#rightmenu { width: 100%; height: 400px; background-color: #999; float: left; } 
-	
-	.cat { width: 30%; height: 220px; background-color: #3c98e9; float: left; margin-left: 11px; margin-top: 11px; margin-bottom: 11px; }
+#logo { width: 30%; float: left; margin-bottom: 33px; }
+#object { display:  none;  }
 
+#blogg { width: 50%; float: left;}
+#social { display: none;}
+#content { width: 50%;}
+
+#clothes { margin-left: 11px; height: auto;}
+.cloth { width: 45%; height: 300px; margin: 11px 11px 0 0; float: left;}
+
+.bottom { width: 23%; height: 250px; float: left;   }
+#social_bottom { display: block; width: 23%; height: 60px; border: 1px solid #FFF; float: left; margin-top: 11px; margin-left: 11px;}
 
 }
 
 @media screen and (max-width: 650px) {
 
-	#wrapper { width: 100%; height: auto; background-color: #333; } 
-	
-	#container-menu { height: 45px; 
-	
-	transition:all .5s ease-in-out; 
-   	-o-transition:all .5s ease-in-out; 
-   	-moz-transition:all .5s ease-in-out; 
-   	-webkit-transition:all .5s ease-in-out; 
-   	
-   	}
 
-	#bottom { width: 100%; height: 200px; background-color: #666; float: left; }
-	#logo { width: 100%; height: 230px; background-color: #33ff00; float: left; margin-left: 0; margin-top: 11px; }
-	
-	#leftmenu { width: 100%; height: 400px; background-color: #ccc; float: left; }
-
-	#rightmenu { width: 100%; height: 400px; background-color: #999; float: left; } 
-	
-	.post { width: 100%; max-width: 320px; height: auto; background-color: #33ccff; float: left; margin-left: 0; margin-top: 11px; }
-	
-
-
-	
 }
 
 @media screen and (max-width: 480px) {
-	
-	#wrapper { width: 100%;  height: auto; background-color: #333; } 
-	#logo { width: 100%; height: 230px; background-color: #33ff00; float: left; margin-left: 0; margin-top: 11px; }
-	
-	#container-menu { height: 25px; 
-	
-	transition:all .5s ease-in-out; 
-   	-o-transition:all .5s ease-in-out; 
-   	-moz-transition:all .5s ease-in-out; 
-   	-webkit-transition:all .5s ease-in-out; 
-   	
-   	}
-	
-	#bottom { width: 100%; height: 200px; background-color: #666; float: left; }
-	
-	article .post { width: 100%; height: auto; background-color: #33ccff; float: left; margin-left: 11px; margin-top: 11px; margin-bottom: 11px; }
-	
-	.cat { width: 100%; height: 220px; background-color: #33ccff; float: left; margin-left: 0px; margin-top: 11px; margin-bottom: 11px; }
-	
-	#leftmenu { width: 100%; height: 400px; background-color: #ccc; float: left; }
 
-	#rightmenu { width: 100%; height: 400px; background-color: #999; float: left; } 
-	
-	html {
-		-webkit-text-size-adjust: none;
-	}
+#clothes { width: 100%; height: auto; float: left; margin: 0; }
+.cloth { width: 100%; height: 300px; margin: 11px 0 0 0;}	
+#logo { width: 100%; float: left;}
+#object { display: none;}
+#blogg { width: 100%; float: left; margin-top: 11px;}
+#social { width: 100%; height: 100px; float: left; margin-top: 11px 0 0 0;}
+.bottom { width: 100%; margin: 11px 0 0 0;}
+#content { width: 100%;}
+
+#row1 { float: left; height: auto; }
+#row2 { float: left; height: auto; }
+#row3 { float: left; height: auto; }
+.coll1 { width: 100%; height: auto; float: left;}
+.coll2 { width: 100%; height: auto; float: left;}
+.coll3 { width: 100%; height: auto; float: left;}
+
+#social_bottom { display: block; width: 100%; height: 60px; background-color: fuchsia; float: left; margin-left: 0;}
 
 }
 
 @media screen and (max-width: 320px) {
 	
-	#wrapper { width: 100%;  height: auto; background-color: #333; } 
-	#logo { width: 95%; height: 230px; margin: 0 auto; margin-top: 11px; }
 	
-
-	
-	#container-menu { height: 25px; 
-	
-	transition:all .5s ease-in-out; 
-   	-o-transition:all .5s ease-in-out; 
-   	-moz-transition:all .5s ease-in-out; 
-   	-webkit-transition:all .5s ease-in-out; 
-   	
-   	}
-	
-	#bottom { width: 100%; height: 200px; background-color: #666; float: left; }
-	
-	.post { width: 100%; height: auto; background-color: #33ccff; float: left; margin-left: 11px; margin-top: 11px; margin-bottom: 11px; }
-	
-	.cat { width: 100%; height: 220px; background-color: #33ccff; float: left; margin-left: 0px; margin-top: 11px; margin-bottom: 11px; }
-	
-	#leftmenu { width: 100%; height: 400px; background-color: #ccc; float: left; }
-
-	#rightmenu { width: 100%; height: 400px; background-color: #999; float: left; } 
-	
-	html {
-		-webkit-text-size-adjust: none;
-	}
-
 }
 
 img {

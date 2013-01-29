@@ -7,7 +7,12 @@
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width; initial-scale=1.0">
 
-<title>TITLE</title>  
+<title>RESPONSIVE</title>  
+ 
+<!--[if (gte IE 6)&(lte IE 8)]>
+  <script type="text/javascript" src="selectivizr.js"></script>
+  <noscript><link rel="stylesheet" href="style.css" /></noscript>
+<![endif]-->
 
 <!--[if lt IE 9]>
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -17,116 +22,124 @@
 	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 <![endif]-->
 
- <link href="css/main.css" rel="stylesheet" type="text/css">
- <link href="css/media-queries.css" rel="stylesheet" type="text/css">
+<link href="css/meanmenu.css" rel="stylesheet" type="text/css">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="css/media-queries.css" rel="stylesheet" type="text/css">
+
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script> 
+    <script src="js/jquery.meanmenu.js"></script> 
 
  
 </head>  
  
 <body id="index" class="home"> 
- 
-<section id="container-menu">
 
-<aside id="social_media"></aside>	
-
-<nav id="menu"></nav>
+<div id="menu-container">
 	
+	<script type="text/javascript"> 
 	
-</section>
-
-<header id="banner">
-
-<section id="logo"></section>
-
-<section class="cat"></section>
-
-<section class="cat"></section>
-
-<section class="cat"></section>
-
-</header> 
- 
-<div id="wrapper"> 
-
-<aside id="leftmenu"></aside>
-
-
-<section id="main">
-
-
-
-
-<article class="post">
-<header><h2>Lorem ipsum dolor</h2></header>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sem eu lacus pellentesque ornare in quis tortor. Ut ut ligula eget magna viverra rhoncus. Phasellus turpis sem, malesuada eu fringilla non, fermentum et ante. Ut lacus est, dignissim quis pretium sed, malesuada in massa. Quisque convallis ultrices arcu ut convallis. Nulla facilisi. Vestibulum ut risus enim. Praesent viverra, erat id convallis bibendum, eros est euismod lorem, sed dapibus lacus neque vel tellus.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sem eu lacus pellentesque ornare in quis tortor. Ut ut ligula eget magna viverra rhoncus. Phasellus turpis sem, malesuada eu fringilla non, fermentum et ante. Ut lacus est, dignissim quis pretium sed, malesuada in massa. Quisque convallis ultrices arcu ut convallis. Nulla facilisi. Vestibulum ut risus enim. Praesent viverra, erat id convallis bibendum, eros est euismod lorem, sed dapibus lacus neque vel tellus.</p>
-
-<footer>
-<p>Published<time datetime="2005-10-08T15:13" pubdate> 3:13pm on October 8th, 2005</time> by Glenn Jones</p>
-</footer>
-
-</article>
-
-
-
-
-<article class="post">
-<header><h2>Lorem ipsum dolor</h2></header>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sem eu lacus pellentesque ornare in quis tortor. Ut ut ligula eget magna viverra rhoncus. Phasellus turpis sem, malesuada eu fringilla non, fermentum et ante. Ut lacus est, dignissim quis pretium sed, malesuada in massa. Quisque convallis ultrices arcu ut convallis. Nulla facilisi. Vestibulum ut risus enim. Praesent viverra, erat id convallis bibendum, eros est euismod lorem, sed dapibus lacus neque vel tellus.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sem eu lacus pellentesque ornare in quis tortor. Ut ut ligula eget magna viverra rhoncus. Phasellus turpis sem, malesuada eu fringilla non, fermentum et ante. Ut lacus est, dignissim quis pretium sed, malesuada in massa. Quisque convallis ultrices arcu ut convallis. Nulla facilisi. Vestibulum ut risus enim. Praesent viverra, erat id convallis bibendum, eros est euismod lorem, sed dapibus lacus neque vel tellus.</p>
-
-<footer>
-<p>Published<time datetime="2005-10-08T15:13" pubdate> 3:13pm on October 8th, 2005</time> by Glenn Jones</p>
-</footer>
-
-</article>
-
-
-<article class="post">
-<header><h2>Lorem ipsum dolor</h2></header>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sem eu lacus pellentesque ornare in quis tortor. Ut ut ligula eget magna viverra rhoncus. Phasellus turpis sem, malesuada eu fringilla non, fermentum et ante. Ut lacus est, dignissim quis pretium sed, malesuada in massa. Quisque convallis ultrices arcu ut convallis. Nulla facilisi. Vestibulum ut risus enim. Praesent viverra, erat id convallis bibendum, eros est euismod lorem, sed dapibus lacus neque vel tellus.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sem eu lacus pellentesque ornare in quis tortor. Ut ut ligula eget magna viverra rhoncus. Phasellus turpis sem, malesuada eu fringilla non, fermentum et ante. Ut lacus est, dignissim quis pretium sed, malesuada in massa. Quisque convallis ultrices arcu ut convallis. Nulla facilisi. Vestibulum ut risus enim. Praesent viverra, erat id convallis bibendum, eros est euismod lorem, sed dapibus lacus neque vel tellus.</p>
-
-<footer>
-<p>Published<time datetime="2005-10-08T15:13" pubdate> 3:13pm on October 8th, 2005</time> by Glenn Jones</p>
-</footer>
-
-</article>
-
-
-
-
-<article class="post">
-<header><h2>Lorem ipsum dolor</h2></header>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sem eu lacus pellentesque ornare in quis tortor. Ut ut ligula eget magna viverra rhoncus. Phasellus turpis sem, malesuada eu fringilla non, fermentum et ante. Ut lacus est, dignissim quis pretium sed, malesuada in massa. Quisque convallis ultrices arcu ut convallis. Nulla facilisi. Vestibulum ut risus enim. Praesent viverra, erat id convallis bibendum, eros est euismod lorem, sed dapibus lacus neque vel tellus.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis sem eu lacus pellentesque ornare in quis tortor. Ut ut ligula eget magna viverra rhoncus. Phasellus turpis sem, malesuada eu fringilla non, fermentum et ante. Ut lacus est, dignissim quis pretium sed, malesuada in massa. Quisque convallis ultrices arcu ut convallis. Nulla facilisi. Vestibulum ut risus enim. Praesent viverra, erat id convallis bibendum, eros est euismod lorem, sed dapibus lacus neque vel tellus.</p>
-
-<footer>
-<p>Published<time datetime="2005-10-08T15:13" pubdate> 3:13pm on October 8th, 2005</time> by Glenn Jones</p>
-</footer>
-
-</article>
-
-
-
-</section>
-
-
-<aside id="rightmenu"></aside>
-
+	  jQuery(document).ready(function () {
+    	jQuery.meanmenu();
+    });
+    
+    </script>
+	
+	<header>
+		<nav>
+		<ul>
+		<li><a href="#">blabla</a></li>
+		<li><a href="#">blabla</a></li>
+		<li><a href="#">blabla</a></li>
+		<li><a href="#">blabla</a></li>
+		</ul>
+		</nav>
+	</header>
+	
 </div>
 
-<footer id="bottom"></footer>
+<div id="row1">
+	
+	<header class="coll1">
+		
+		<div id="logo"><img src="images/logo.png" /></div>
+		<div id="object"></div>
+		
+	</header>
+	
+</div>
 
+<div id="row2">
+	
+	<section class="coll2">
+	
+	<div id="social">
+		
+		<div class="line1"></div>
+		
+	</div>
+	
+	<div id="content">
+	
+	<div class="line2"></div>
+	
+	<div id="clothes">
+	<div class="cloth"></div>
+	<div class="cloth"></div>
+	<div class="cloth"></div>
+	<div class="cloth"></div>
+	<div class="cloth"></div>
+	<div class="cloth"></div>
+	<div class="cloth"></div>
+	<div class="cloth"></div>
+	<div class="cloth"></div>
+	
+	</div>
+	
+	</div>
+	
+	<div id="blogg">
+		
+		<div class="line1"></div>
+		
+		<div class="post">
+			<img src="images/postimg.png" />
+			<span class="cat">consectetur</span>
+			<h2> Lorem ipsum dolor </h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est lorem, facilisis eget mollis a, porttitor id nulla. Nulla facilisi. Duis metus diam, tempus ac gravida ac, egestas quis orci. Ut eget velit tellus. Cras auctor nunc at diam pretium sed rutrum tellus egestas. Donec ut augue quam. Aenean tincidunt, ipsum sit amet euismod blandit, elit lorem placerat neque, ac dapibus mi leo at dolor.</p>
+		</div>
+		
+		<div class="post">
+			<img src="images/postimg.png" />
+			<span class="cat">consectetur</span>
+			<h2> Lorem ipsum dolor </h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est lorem, facilisis eget mollis a, porttitor id nulla. Nulla facilisi. Duis metus diam, tempus ac gravida ac, egestas quis orci. Ut eget velit tellus. Cras auctor nunc at diam pretium sed rutrum tellus egestas. Donec ut augue quam. Aenean tincidunt, ipsum sit amet euismod blandit, elit lorem placerat neque, ac dapibus mi leo at dolor.</p>
+		</div>
+		
+		<div class="post">
+			<img src="images/postimg.png" />
+			<span class="cat">consectetur</span>
+			<h2> Lorem ipsum dolor </h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer est lorem, facilisis eget mollis a, porttitor id nulla. Nulla facilisi. Duis metus diam, tempus ac gravida ac, egestas quis orci. Ut eget velit tellus. Cras auctor nunc at diam pretium sed rutrum tellus egestas. Donec ut augue quam. Aenean tincidunt, ipsum sit amet euismod blandit, elit lorem placerat neque, ac dapibus mi leo at dolor.</p>
+		</div>
+		
+	</div>
+	
+	</section>
+	
+</div>
 
+<div id="row3">
+	
+	<section class="coll3">
+	
+	<div id="social_bottom"></div>
+	<div class="bottom"></div>
+	<div class="bottom"></div>
+	<div class="bottom"></div>
+	
+	</section>
+	
+</div>
 
 </body> 
 </html>

@@ -1,0 +1,44 @@
+* {padding: 0; margin:0;}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body{background-color: #FFF;}
+
+#menu-container { width: 100%; height: 30px; background-color: #212121; padding: 11px 0 11px 0; }
+#row1 { width: 100%; height: auto; background-color:  #FFF; padding: 11px 0 11px 0; }
+#row2 { width: 100%; height: auto; background-color:  #FFF; padding: 11px 0 11px 0; }
+#row3 { width: 100%; height: auto; background-color:  #00f3da; padding: 11px 0 11px 0; float: left;}
+
+.coll1 { width: 100%; max-width: 1224px;  height: 300px; background-color: transparent; margin: auto;}
+.coll2 { width: 100%; max-width: 4224px;  height: 1200px; background-color: transparent; margin: auto;}
+.coll3 { width: 100%; max-width: 1224px;  height: 275px; background-color: transparent; margin: auto;}
+
+#content { width: 60%; height: auto; background-color: transparent; float: left;}
+#slider { width: 100%; height: 300px; background-color: teal; float: left; }
+#clothes { width: 100%; height: 1100px; background-color: #f9f9f9; float: left;}
+.cloth { width: 31%; height: 250px; border: 1px solid #d1d1d1; float: left;  margin-left: 11px; margin-top: 11px;}
+
+.bottom { width: 32%; height: 250px; border: 1px solid #FFF; float: left;  margin-left: 11px; margin-top: 11px;}
+
+#blogg { width: 20%; height: auto; background-color: #f7f6f6; float: left;}
+#social { width: 20%; height: 1200px; background-color: #f7f6f6; float: left;}
+#social_bottom { display: none;}
+
+#logo { width: 20%; height: 200px; background-color: transparent; float: left; margin-top: 50px;  }
+#object { width: 40%; height: 275px; background-color: transparent; float: right; margin-top: 11px;  }
+
+.line1 { width: 100%; height: 50px; background-color: #59fbeb; float: left; }
+.line2 { width: 100%; height: 50px; background-color: #00f3da; float: left; }
+
+.post { width: 90%; height: auto; background-color: #FFF; margin-top: 11px; margin: auto; margin-top: 11px;}
+
+.post p { padding: 11px; font-family: sans-serif; color: #333; font-size: 12px; line-height: 18px; }
+.post h2 {margin-left: 11px; margin-top: 11px;}
+.cat { padding: 11px; font-family: sans-serif; color: #333; font-size: 11px; }
+
+
+
+
